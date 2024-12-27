@@ -1,0 +1,64 @@
+﻿.custom-navbar {
+    /*padding-top: 20px;
+    padding-bottom: 20px;*/
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    margin-left: 2em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.nav-link-highlight::after {
+    height: 4px;
+    content: '';
+    width: 100%;
+    background: rgb(72, 213, 131);
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: -12px;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+}
+
+.nav-link-highlight:hover::after {
+    opacity: 1;
+}
+
+.custom-dropdown {
+    border-radius: 0; /* Remove rounded corners */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    border: 1px solid rgba(0,0,0,.15); /* Add a border */
+    box-shadow: 2px 2px;
+}
+
+.dropdown-item {
+    padding: 10px 15px; /* Adjust padding as needed */
+}
+
+.dropdown-item:first-child,
+.dropdown-item:last-child {
+    border-radius: 0;
+}
+
+/* Style the dropdown toggle */
+.nav-link.dropdown-toggle {
+    border-radius: 0; /* Remove rounded corners from toggle */
+}
+
+/* Optional: Style the dropdown divider */
+.dropdown-divider {
+    margin: 0; /* Remove margin to keep sharp edges */
+}
+
+/* Optional: Add a subtle hover effect */
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #f8f9fa; /* Light grey background on hover/focus */
+}

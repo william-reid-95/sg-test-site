@@ -1,0 +1,210 @@
+﻿
+.montserrat-p {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.title-card {
+    background-color: black;
+    min-height: 100vh; /* Minimum height of 100% of the viewport height */
+    width: 100vw; /* Full width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+.main-heading {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    letter-spacing: -0.09em;
+}
+
+.big-heading {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: -0.09em;
+    font-size: 96px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.tagline {
+    font-family: 'Montserrat', serif;
+    font-weight: normal;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    vertical-align: middle;
+    color: whitesmoke;
+    font-size: 1.1em;
+}
+
+.sg-text-box-simple {
+    text-align: left;
+    margin: 0; /* Removes the default margin of the paragraph */
+    font-family: 'Montserrat', serif; /* Sets the font family */
+    font-size: 16px; /* Sets the font size */
+    font-size: 18px;
+}
+
+.sg-text-box{
+    background-color: whitesmoke; /* Sets the background color to white */
+    border: 1px solid black; /* Sets a thin black border */
+    padding: 10px; /* Adds some padding inside the box */
+    max-width: 60em;
+    margin: 20px auto; /* Centers the box horizontally with some margin */
+    /*background-color: rgb(234, 234, 234)*/
+}
+
+.sg-text-box p {
+    text-align: left;
+    margin: 0; /* Removes the default margin of the paragraph */
+    font-family: 'Montserrat', serif; /* Sets the font family */
+    font-size: 16px; /* Sets the font size */
+    margin-left: 5em;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+.sg-text-box h2 {
+    text-align: left;
+    font-size: 24px;
+    font-style: italic;
+    color: black;
+    border-bottom: 4px solid rgb(72, 213, 131);
+    margin-left: 2em;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.info-image {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.artist-image {
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+    /*margin: 20px auto;*/
+}
+
+.sg-question-outer {
+    background-color: white; /* Sets the background color to white */
+    border: 1px solid black; /* Sets a thin black border */
+    padding: 10px; /* Adds some padding inside the box */
+    max-width: 60em;
+    margin: 20px auto; /* Centers the box horizontally with some margin */
+}
+
+.sg-question-outer h2 {
+    text-align: left;
+    font-size: 24px;
+    font-style: italic;
+    color: black;
+    border-bottom: 4px solid rgb(72, 213, 131);
+    margin-left: 300px;
+    margin-bottom: 10px;
+}
+
+.question-box {
+    background-color: white; /* Sets the background color to white */
+    border: 1px solid black; /* Sets a thin black border */
+    padding: 10px; /* Adds some padding inside the box */
+    margin: 20px;
+    max-width: 40em;
+}
+
+.question-box-minor {
+    background-color: white; /* Sets the background color to white */
+    border: 1px solid black; /* Sets a thin black border */
+    padding: 10px; /* Adds some padding inside the box */
+    margin: 5px;
+    max-width: 40em;
+    border-color: lightgrey;
+}
+
+.form-control{
+    border-radius: 0px;
+}
+.form-control:focus {
+    border-color: darkgray;
+    box-shadow: none;
+}
+.btn {
+    border-radius: 0px;
+}
+
+.sg-card {
+    width: 18rem;
+    /* this has to be important or it breaks, don't know why :( */
+    border: 1px solid black !important;
+}
+
+.slanted-section {
+    position: relative;
+    background-color: black;
+    padding-top: 10em;
+    padding-bottom: 10em;
+
+}
+
+.triangle-top {
+    width: 100vw;
+    height: 0;
+    border-left: 100vw solid transparent;
+    border-bottom: 100px solid black;
+}
+
+.triangle-bottom {
+    width: 100vw;
+    height: 0;
+    border-left: 100vw solid transparent;
+    border-top: 100px solid black;
+}
+
+.content {
+    position: relative;
+    z-index: 2; /* Ensure the content is on top of the slant */
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.sg-footer {
+    text-align: center;
+    background-color: lightgray;
+    padding:2em;
+    margin-top: 2em;
+}
+
+
+.sg-footer ul {
+    list-style: none;
+}
+
+.sg-footer li {
+    display: inline-block;
+    margin-right: 24px;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
